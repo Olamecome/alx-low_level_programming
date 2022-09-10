@@ -2,6 +2,9 @@
  *C coding using betty format ALX
  */
 #include <stdio.h>
+/*
+ *Function descritopn as Betty wants
+ */
 
 int main(void)
 {
