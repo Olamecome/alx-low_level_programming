@@ -1,5 +1,5 @@
-/*
- *Initial description: This code is to print an output
+/**
+ * Initial description: This code is to print an output
  */
 #include <stdio.h>
 
@@ -9,8 +9,8 @@
  */
 
 int main(void)
-	/*
-	 *Main function to show what I need
+	/**
+	 * Main function to show what I need
 	 */
 {
 	puts("\"Programming is like building a multilingual puzzle");
