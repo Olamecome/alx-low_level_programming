@@ -3,7 +3,8 @@
  */
 #include <stdio.h>
 
-/*Description here
+/*Main function print 
+ * \"Programming is like building a multilingual puzzle
  *
  */
 
