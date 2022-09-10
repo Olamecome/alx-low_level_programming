@@ -5,8 +5,6 @@
 
 /**
  * main - This is the main function where execution starts
- * No Paramteres required
- *
  * description - This is to print a string output
  * Return: Zero is returned
  */
