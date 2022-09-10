@@ -10,7 +10,6 @@
  * Description: This is to print a string output
  * Return: Zero is returned
  */
-
 int main(void)
 	/**
 	 * Main function to show what I need
