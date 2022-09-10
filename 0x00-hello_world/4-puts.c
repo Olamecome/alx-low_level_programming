@@ -1,12 +1,9 @@
-/**
- * Description: This code is to print an output
- */
 #include <stdio.h>
 
 /**
- * main - This is the main function where execution starts
- * description - This is to print a string output
- * Return: Zero is returned
+ * main - This is the main function
+ * description - This returns a 0 value
+ * Return: Zero
  */
 int main(void)
 {
