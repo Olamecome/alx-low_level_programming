@@ -4,8 +4,11 @@
 #include <stdio.h>
 
 /**
- * Main function print
- * Programming is like building a multilingual puzzle
+ * main -  main function where execution starts
+ * No Paramteres required
+ *
+ * Description: This is to print a string output
+ * Return: Zero is returned 
  */
 
 int main(void)
@@ -15,7 +18,7 @@ int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	/**
-	 * Returns 0
+	 * Return: Zero 0
 	 */
 	return (0);
 }
