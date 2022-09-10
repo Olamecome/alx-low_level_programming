@@ -1,14 +1,14 @@
 /**
- * Initial description: This code is to print an output
+ * Description: This code is to print an output
  */
 #include <stdio.h>
 
 /**
- * main -  main function where execution starts
+ * main - main function where execution starts
  * No Paramteres required
  *
  * Description: This is to print a string output
- * Return: Zero is returned 
+ * Return: Zero is returned
  */
 
 int main(void)
