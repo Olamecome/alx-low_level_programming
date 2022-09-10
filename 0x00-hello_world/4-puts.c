@@ -1,16 +1,12 @@
 /*
- *C coding using betty format ALX
+ *
  */
 #include <stdio.h>
 
-/*
- *Function descritopn as Betty wants
- */
+/*Description here*/
 int main(void)
 {
-	/*This prints without using
-	 *  the print f
-	 *  */
+	//Another one here
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
