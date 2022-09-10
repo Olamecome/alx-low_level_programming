@@ -3,9 +3,9 @@
  */
 #include <stdio.h>
 
-/*Main function print 
+/**
+ * Main function print 
  * \"Programming is like building a multilingual puzzle
- *
  */
 
 int main(void)
