@@ -41,7 +41,7 @@ int main(void)
 			 * this is to know when to print the comma and space.
 			 * they shouldnt be after the last value
 			 */
-				if (k == 9 && j == k - 1)
+				if (k == 9 && j == k - 1 && i == j - 1)
 					continue;
 				putchar(',');
 				putchar(' ');
