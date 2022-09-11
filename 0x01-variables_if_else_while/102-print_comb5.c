@@ -19,15 +19,19 @@ int main(void)
 		{
 			if (a == b)
 				continue;
-			
-			if (a < 10)
-				putchar(0 + '0');
-			putchar(a + '0');
+			/**
+			 * putchar will print the ASCII equivalent of the digits
+			 * when digits go above 10, it printsspecial character
+			 * I used integer division and modulo to the the double digit value
+			 *
+			 */
+
+			putchar(a / 10 + '0');
+			putchar(a % 10 + '0');
 			putchar(' ');
-			
-			if (b < 10)
-				putchar(0 + '0');
-			putchar(b + '0');
+
+			putchar(b / 10 + '0');
+			putchar(b % 10 + '0');
 
 			if (b == 99 && a == b - 1)
 				continue;
