@@ -7,7 +7,9 @@
  */
 int _abs(int n)
 {
-	if (abs(n) < 10)
+	n = abs(n);
+
+	if (n < 10)
 		_putchar(n + '0');
 	else
 	{
