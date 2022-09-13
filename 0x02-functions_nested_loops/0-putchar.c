@@ -14,6 +14,5 @@ int main(void)
 
 	for (i = 0; i < len; i++)
 		_putchar(string[i]);
-	_putchar('\n');
 	return (0);
 }
