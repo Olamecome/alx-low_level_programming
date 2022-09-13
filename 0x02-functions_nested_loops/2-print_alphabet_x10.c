@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_alphabet_x10 - print alphabets in lowercase 10x
@@ -14,18 +14,8 @@ void print_alphabet_x10(void)
 	while (i < 10)
 	{
 		for (c = 'a'; c <= 'z'; c++)
-			putchar(c);
-		putchar('\n');
+			_putchar(c);
+		_putchar('\n');
 		i++;
 	}
-}
-
-/**
- * main - check the code
- * Return: 0
- */
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
 }
