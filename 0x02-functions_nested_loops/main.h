@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 int _putchar(char c);
-void print_alphabet(void);
+//void print_alphabet(void);
 
 /**
  * _putchar - function to print characters
@@ -19,15 +19,15 @@ void print_alphabet(void);
  * print_alphabet - function to print lowercase alphabets
  * Return: Zero for success
  */
-void print_alphabet(void)
-{
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		_putchar(c);
-	}
-	_putchar('\n');
-
-	return;
-}
+//void print_alphabet(void)
+//{
+//	char c;
+//
+//	for (c = 'a'; c <= 'z'; c++)
+//	{
+//		_putchar(c);
+//	}
+//	_putchar('\n');
+//
+//	return;
+//}
