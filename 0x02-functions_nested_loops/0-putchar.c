@@ -1,14 +1,4 @@
-#include <unistd.h>
-
-/**
- * _putchar - function to putchar
- * @c: value to be printed
- * Return: on success, 1. on error, -1
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+#include "main.h"
 
 /**
  * main - function to print out _putchar
