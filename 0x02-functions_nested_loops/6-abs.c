@@ -3,10 +3,11 @@
 
 /**
  * _abs - Prints absolute value
- * Return: Zero
+ * Return: absolute value of n
  */
 int _abs(int n)
 {
-	_putchar(abs(n));
-	return (0);
+	if (n < 0)
+		n = n * -1;
+	return (n);
 }
