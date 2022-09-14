@@ -3,6 +3,7 @@
 
 /**
  * _abs - Prints absolute value
+ * @n: number to be converted
  * Return: absolute value of n
  */
 int _abs(int n)
