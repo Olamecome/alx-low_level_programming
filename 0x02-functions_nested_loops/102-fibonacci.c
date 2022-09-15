@@ -15,7 +15,7 @@ int main(void)
 
 	while (num > 0)
 	{
-		printf("%d", next);
+		printf("%ld", next);
 		/* prints comma and space between items excet the last one*/
 		if (num > 1)
 			printf(", ");
