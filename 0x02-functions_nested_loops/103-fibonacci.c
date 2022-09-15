@@ -9,7 +9,7 @@ int main(void)
 	long t1 = 1;
 	long t2 = 2;
 	long next = t1 + t2;
-	long sum;
+	long sum = 0;
 
 	while (next <= 4000000)
 	{
