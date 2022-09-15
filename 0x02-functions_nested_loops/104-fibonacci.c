@@ -35,13 +35,12 @@ void fibonacci(void)
 		/* prints comma and space between items excet the last one*/
 		if (num > 1)
 		{
-			_putchar(',');
-			_putchar(' ');
+			printf(", ");
 		}
 		t1 = t2;
 		t2 = next;
 		next = t1 + t2;
 		num--;
 	}
-	_putchar('\n');
+	printf("\n");
 }
