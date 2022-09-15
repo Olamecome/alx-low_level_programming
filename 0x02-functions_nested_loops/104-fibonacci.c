@@ -11,11 +11,11 @@ int main(void)
 	unsigned long next = t1 + t2;
 	int num = 98 - 2;/* to remove first two values from the total loop*/
 
-	printf("%ld, %ld, ", t1, t2);
+	printf("%lu, %lu, ", t1, t2);
 
 	while (num > 0)
 	{
-		printf("%ld", next);
+		printf("%lu", next);
 		/* prints comma and space between items excet the last one*/
 		if (num > 1)
 			printf(", ");
