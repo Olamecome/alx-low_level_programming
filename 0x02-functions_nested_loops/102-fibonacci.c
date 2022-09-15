@@ -9,7 +9,7 @@ int main(void)
 	int t1 = 1;
 	int t2 = 2;
 	int next = t1 + t2;
-	int num = 5 - 2;/* to remove first two values from the total loop*/
+	int num = 50 - 2;/* to remove first two values from the total loop*/
 
 	printf("%d, %d, ", t1, t2);
 
