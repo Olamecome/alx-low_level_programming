@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	int t1 = 1;
-	int t2 = 2;
+	long t1 = 1;
+	long t2 = 2;
 	long next = t1 + t2;
 	int num = 50 - 2;/* to remove first two values from the total loop*/
 
-	printf("%d, %d, ", t1, t2);
+	printf("%ld, %ld, ", t1, t2);
 
 	while (num > 0)
 	{
