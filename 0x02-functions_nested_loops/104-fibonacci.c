@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 
+
+
+void fibonacci(void);
+
 /**
  * main - chack code
  * Return: Zero
