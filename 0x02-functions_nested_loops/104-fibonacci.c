@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-	unsigned long t1 = 1;
-	unsigned long t2 = 2;
-	unsigned long next = t1 + t2;
+	long int t1 = 1;
+	long int t2 = 2;
+	long int next = t1 + t2;
 	int num = 98 - 2;/* to remove first two values from the total loop*/
 
-	printf("%lu, %lu, ", t1, t2);
+	printf("%ld, %ld, ", t1, t2);
 
 	while (num > 0)
 	{
-		printf("%lu", next);
+		printf("%ld", next);
 		/* prints comma and space between items excet the last one*/
 		if (num > 1)
 			printf(", ");
