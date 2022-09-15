@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	long t1 = 1;
-	long t2 = 2;
-	long next = t1 + t2;
+	unsigned long t1 = 1;
+	unsigned long t2 = 2;
+	unsigned long next = t1 + t2;
 	int num = 98 - 2;/* to remove first two values from the total loop*/
 
 	printf("%ld, %ld, ", t1, t2);
