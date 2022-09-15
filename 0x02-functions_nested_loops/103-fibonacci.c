@@ -9,7 +9,8 @@ int main(void)
 	long t1 = 1;
 	long t2 = 2;
 	long next = t1 + t2;
-	long sum = 0;
+	/*adding the first even number of the first 2 values */
+	long sum = t2;
 
 	while (next <= 4000000)
 	{
