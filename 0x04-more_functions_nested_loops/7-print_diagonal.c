@@ -5,7 +5,7 @@
  * @n: integer value for number of times \ should be printed
  * if @n is 0 or less, new line should be printed
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int i, j;
 
