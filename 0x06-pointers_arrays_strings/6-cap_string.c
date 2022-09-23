@@ -14,45 +14,23 @@ int separator(char c)
 	switch (c)
 
 	{
-
 	case ' ':
-
 	case '\t':
-
 	case '\n':
-
 	case ',':
-
 	case ';':
-
 	case '.':
-
 	case '!':
-
 	case '?':
-
 	case '"':
-
 	case '(':
-
 	case ')':
-
 	case '{':
-
 	case '}':
-
 		return (1);
-
-
-
 	default:
-
 		return (0);
-
 	}
-
-
-
 }
 
 /**
