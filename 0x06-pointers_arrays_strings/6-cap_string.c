@@ -56,13 +56,9 @@ int separator(char c)
 }
 
 /**
-
  * cap_string - capitalizes chars after given deliminators
-
  * @s: string to uppercase
-
  * Return: returns modified string
-
  */
 
 char *cap_string(char *s)
