@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -16,4 +16,4 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 int onlyNumbers(char *c);
 void multiply(char* s1, char* s2);
 
-#endif /* HOLBERTON_H */
+#endif /* MAIN_H */
