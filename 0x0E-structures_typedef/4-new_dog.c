@@ -1,23 +1,48 @@
+#include <stdlib.h>
 #include "dog.h"
-#include <stdio.h>
-
 /**
- * new_dog - function to create a new dog
- * @name: name of the dog
- * @age: age of the dog
- * @owner: owner of the dog
- * Return: Null if the function fails struct dog if it succeeds
- */
+* new_dog - makes a new struct dog
+* @name: his/her name
+* @age: how old is he
+* @owner: who are you
+* Return: new dog
+*/
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *new_dog;
+unsigned int i, namel, ownerl;
+dog_t *dog;
 
-	new_dog->name = name;
-	new_dog->age = age;
-	new_dog->owner = owner;
-	
-	if (new_dog->name == NULL || new_dog->owner == NULL)
-	       return (NULL);
-	return (new_dog);
+if (name == NULL || owner == NULL)
+return (NULL);
+dog = malloc(sizeof(dog_t));
+if (dog == NULL)
+return (NULL);
+for (namel = 0; name[namel]; namel++)
+;
+namel++;
+dog->name = malloc(namel * (sizeof(char)));
+if (dog->name == NULL)
+{
+free(dog);
+return (NULL);
+}
+for (i = 0; i < namel; i++)
+dog->name[i] = name[i];
+
+dog->age = age;
+
+for (ownerl = 0; owner[ownerl]; ownerl++)
+;
+ownerl++;
+dog->owner = malloc(ownerl * (sizeof(char)));
+if (dog->owner == NULL)
+{
+free(dog->name);
+free(dog);
+return (NULL);
+}
+for (i = 0; i < ownerl; i++)
+dog->owner[i] = owner[i];
+return (dog);
 }
